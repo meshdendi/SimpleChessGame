@@ -3,6 +3,7 @@ package Pieces;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Image;
+import java.awt.event.MouseEvent;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -44,7 +45,7 @@ public class Horse implements Piece {
 	}
 
 	@Override
-	public void move(int rowSource, int colSource, int rowDestination, int colDestination) {		
+	public void move(MouseEvent arg0) {		
 	}
 
 }

@@ -66,14 +66,15 @@ public class Application extends JFrame {
 		Queen blackQueen = new Queen(chessboard.getsquare(7, 4), Color.BLACK);
 
 		for (int i = 0; i < whitePawns.length; i++) {
-			whitePawns[i] = new Pawn(chessboard.getsquare(1, i), Color.WHITE);
+			whitePawns[i] = new Pawn(chessboard.getsquare(1, i), Color.WHITE,chessboard);
 		}
 
 		for (int i = 0; i < blackPawns.length; i++) {
-			blackPawns[i] = new Pawn(chessboard.getsquare(6, i), Color.BLACK);
+			blackPawns[i] = new Pawn(chessboard.getsquare(6, i), Color.BLACK,chessboard);
 		}
 
-		
+
+
 
 	}
 

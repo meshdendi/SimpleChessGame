@@ -3,6 +3,7 @@ package Pieces;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Image;
+import java.awt.event.MouseEvent;
 import java.net.MalformedURLException;
 
 import javax.swing.ImageIcon;
@@ -46,7 +47,7 @@ public class Tower implements Piece {
 	}
 
 	@Override
-	public void move(int rowSource, int colSource, int rowDestination, int colDestination) {
+	public void move(MouseEvent arg0) {
 
 	}
 

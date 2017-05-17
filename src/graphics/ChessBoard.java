@@ -16,6 +16,8 @@ public class ChessBoard {
 		this.panel.setLayout(new GridLayout(8, 8));
 	}
 	
+
+
 	public void initBoard(){
 		for(int row=0; row<square.length; row++){
 			for(int col=0; col<square[row].length; col++){
