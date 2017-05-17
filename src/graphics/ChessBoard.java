@@ -5,13 +5,13 @@ import java.awt.GridLayout;
 
 import javax.swing.JPanel;
 
-public class ChessBoard2 {
+public class ChessBoard {
 	
 	private JPanel[][] square = new JPanel[8][8];
 	private JPanel panel;
 	int index = 0;
 	
-	public ChessBoard2(JPanel panel){
+	public ChessBoard(JPanel panel){
 		this.panel = panel;
 		this.panel.setLayout(new GridLayout(8, 8));
 	}

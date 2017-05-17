@@ -2,8 +2,7 @@ package graphics;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+
 import java.net.MalformedURLException;
 
 import javax.swing.JFrame;
@@ -36,7 +35,7 @@ public class Application extends JFrame {
 		this.setLocationRelativeTo(null);
 
 		// set the chess board black and white squares
-		ChessBoard2 chessboard = new ChessBoard2(panel);
+		ChessBoard chessboard = new ChessBoard(panel);
 		chessboard.initBoard();
 		this.panel = chessboard.getPanel();
 		this.add(panel);
